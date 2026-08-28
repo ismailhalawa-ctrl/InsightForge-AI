@@ -1,0 +1,58 @@
+# ---- Environment ----
+.env
+.env.*
+backend/.env
+frontend/.env*
+!.env.example
+
+# ---- Python (backend) ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+dist/
+build/
+
+# ---- Uploaded file imports (Sprint 16) ----
+backend/var/file_imports/
+
+# ---- Node (frontend) ----
+node_modules/
+frontend/dist/
+frontend/build/
+.next/
+frontend/.next/
+frontend/next-env.d.ts
+frontend/tsconfig.tsbuildinfo
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Docker ----
+*.pid
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Generated artifacts (never source) ----
+# Rendered report exports are per-analysis output written at runtime,
+# not project files -- same reasoning as backend/var/file_imports/ above.
+backend/var/report_exports/
+
+# ---- Local scratch / scratch-run output ----
+backend/ABCDE_*.txt
+backend/TURN_*.txt

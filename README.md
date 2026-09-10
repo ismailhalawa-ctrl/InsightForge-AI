@@ -1,87 +1,184 @@
-# 🧠 InsightForge AI
-
-### AI-Powered Product, Audience & Feedback Intelligence Platform
-
-**Transform raw user feedback into structured intelligence, actionable insights, and better decisions.**
-
-InsightForge AI is an intelligent analytics platform built to help teams understand **what their users are saying, what problems they are facing, what they are asking for, and where the biggest opportunities are hiding inside their data.**
-
-Instead of manually going through thousands of feedback records, InsightForge combines **data intelligence, analytics, NLP, AI-powered insights, audience intelligence, semantic analysis, and an AI assistant** into one unified workspace.
-
-> **From raw feedback to actionable intelligence.**
-
----
-
-## 🚀 See InsightForge in Action
-
-<!-- Add your main product GIF here -->
+# InsightForge AI
 
 <p align="center">
-  <img src="docs/gifs/product-demo.gif" alt="InsightForge AI Product Demo" width="900"/>
+  <strong>AI-Powered Product & Audience Intelligence</strong>
 </p>
 
-<!-- Replace the GIF above with your final product walkthrough -->
+<p align="center">
+  Turn large-scale user feedback into structured intelligence,<br/>
+  actionable insights, and confident product decisions.
+</p>
+
+<p align="center">
+  <a href="#features">Features</a>
+  &nbsp;•&nbsp;
+  <a href="#architecture">Architecture</a>
+  &nbsp;•&nbsp;
+  <a href="#getting-started">Getting Started</a>
+  &nbsp;•&nbsp;
+  <a href="#documentation">Documentation</a>
+</p>
 
 ---
 
-## 🌐 A Unified Intelligence Workspace
+## Overview
 
-InsightForge brings multiple layers of intelligence together in one platform:
+**InsightForge AI** is an end-to-end intelligence platform for analyzing large volumes of unstructured user feedback and transforming it into meaningful **product, audience, and business intelligence**.
+
+The platform brings data analysis, machine learning, semantic understanding, and AI reasoning together in a unified workspace — allowing users to move from **raw feedback to evidence-backed insights and actionable decisions** without manually reviewing thousands of individual records.
+
+### From Data → Understanding → Action
 
 ```text
-                         INSIGHTFORGE AI
-                                │
-              ┌─────────────────┼─────────────────┐
-              │                 │                 │
-              ▼                 ▼                 ▼
-        DATA INTELLIGENCE   ANALYTICS       AI INTELLIGENCE
-              │                 │                 │
-              └─────────────────┼─────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│                         RAW FEEDBACK                          │
+│     Comments · Reviews · Requests · Questions · Responses    │
+└───────────────────────────────┬──────────────────────────────┘
                                 │
                                 ▼
-                     AUDIENCE INTELLIGENCE
+┌──────────────────────────────────────────────────────────────┐
+│                      DATA INTELLIGENCE                        │
+│     Validation · Quality · Cleaning · Patterns · Coverage    │
+└───────────────────────────────┬──────────────────────────────┘
                                 │
                                 ▼
-                      PRODUCT INTELLIGENCE
+┌──────────────────────────────────────────────────────────────┐
+│                    AI & ANALYTICS ENGINE                      │
+│      NLP · Sentiment · Topics · Embeddings · AI Reasoning    │
+└───────────────────────────────┬──────────────────────────────┘
                                 │
                                 ▼
-                       AI ASSISTANT / RAG
+┌──────────────────────────────────────────────────────────────┐
+│                     INTELLIGENCE LAYER                       │
+│                                                              │
+│  Audience  ·  Personas  ·  Problems  ·  Requests  ·  FAQs   │
+│  Complaints · Suggestions · Topics · AI Insights             │
+└───────────────────────────────┬──────────────────────────────┘
                                 │
                                 ▼
-                     ACTIONABLE DECISIONS
+┌──────────────────────────────────────────────────────────────┐
+│                     DECISION SUPPORT                         │
+│        Dashboards · Reports · Repository · AI Assistant      │
+└──────────────────────────────────────────────────────────────┘
 ```
-
-### What InsightForge helps you discover
-
-* 📊 **What is happening?** — analytics, trends, distributions, and patterns
-* 🧠 **Why is it happening?** — AI-powered interpretation and intelligence
-* 👥 **Who is affected?** — audience segments and personas
-* 🚨 **What is going wrong?** — complaints, problems, and pain points
-* 💡 **What do users want?** — suggestions, requests, and opportunities
-* ❓ **What are users confused about?** — recurring questions and FAQs
-* 🧩 **What are people talking about?** — topics and semantic clusters
-* 💬 **What can we ask the data?** — conversational AI through the intelligence assistant
 
 ---
 
-## 🎯 The Vision
+## What InsightForge Delivers
 
-InsightForge is built around a simple idea:
+InsightForge is built around the questions that matter when analyzing user feedback:
 
-> **Feedback should not remain a pile of comments, rows, or disconnected observations. It should become intelligence that teams can act on.**
+| Question                                 | Intelligence                                   |
+| ---------------------------------------- | ---------------------------------------------- |
+| **What is happening?**                   | Analytics, trends, distributions & key metrics |
+| **What are users talking about?**        | Topics, clusters & semantic patterns           |
+| **What is going wrong?**                 | Complaints, problems & pain points             |
+| **What do users want?**                  | Suggestions, requests & opportunities          |
+| **Who are the users?**                   | Personas, segments & audience intelligence     |
+| **What are users asking?**               | Questions, FAQs & information gaps             |
+| **What does the data actually tell us?** | Evidence-aware analytics & AI insights         |
+| **What should we investigate next?**     | AI-assisted exploration & recommendations      |
 
-The platform turns unstructured feedback into a connected intelligence system where **data, analytics, AI insights, audience understanding, product problems, user requests, and recommendations** can be explored together.
+---
+
+## One Platform. Multiple Intelligence Layers.
+
+InsightForge connects the entire feedback-analysis workflow instead of treating each analysis as an isolated report.
+
+```text
+                    ┌─────────────────────┐
+                    │    DATA SOURCES     │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │  DATA INTELLIGENCE  │
+                    └──────────┬──────────┘
+                               │
+              ┌────────────────┼────────────────┐
+              ▼                ▼                ▼
+        ┌──────────┐     ┌──────────┐     ┌──────────┐
+        │Analytics │     │   AI     │     │ Audience │
+        │          │     │ Insights │     │Intelligence│
+        └────┬─────┘     └────┬─────┘     └────┬─────┘
+             │                │                │
+             └────────────────┼────────────────┘
+                              ▼
+                   ┌──────────────────────┐
+                   │ PRODUCT INTELLIGENCE │
+                   └──────────┬───────────┘
+                              │
+            ┌─────────────────┼─────────────────┐
+            ▼                 ▼                 ▼
+       ┌─────────┐       ┌──────────┐     ┌──────────┐
+       │Problems │       │ Requests │     │   FAQs   │
+       └─────────┘       └──────────┘     └──────────┘
+            │                 │                 │
+            └─────────────────┼─────────────────┘
+                              ▼
+                   ┌──────────────────────┐
+                   │   AI ASSISTANT / RAG │
+                   └──────────┬───────────┘
+                              │
+                              ▼
+                   ┌──────────────────────┐
+                   │ ACTIONABLE INSIGHTS  │
+                   └──────────────────────┘
+```
+
+---
+
+## Product Demo
+
+<!-- Replace with the final product walkthrough GIF -->
+
+<p align="center">
+  <img
+    src="docs/gifs/product-demo.gif"
+    alt="InsightForge AI — Product Demo"
+    width="920"
+  />
+</p>
+
+<p align="center">
+  <sub>
+    End-to-end workflow from data ingestion to product and audience intelligence.
+  </sub>
+</p>
+
+---
+
+## Built for the Full Intelligence Workflow
+
+InsightForge is not designed to stop at a sentiment chart or a collection of AI-generated summaries.
+
+It is designed to provide a **connected intelligence workflow**:
+
+```text
+Import
+  ↓
+Understand the Data
+  ↓
+Analyze
+  ↓
+Discover Patterns
+  ↓
+Understand the Audience
+  ↓
+Identify Problems
+  ↓
+Extract Requests & Opportunities
+  ↓
+Generate AI Insights
+  ↓
+Ask Questions
+  ↓
+Make Better Decisions
+```
 
 ---
 
 <p align="center">
-
-### **Understand the audience.**
-
-### **Discover the problems.**
-
-### **Find the opportunities.**
-
-### **Make better decisions.**
-
+  <strong>InsightForge AI</strong><br/>
+  <em>From feedback to intelligence.</em>
 </p>
